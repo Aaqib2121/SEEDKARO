@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEEDKARO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <section class="header">
+      <nav class="navbar navbar-expand-lg bg-color fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="images/logo.png" width="200" alt="Responsive image"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-align-justify nav-icon"></i></span>
+          </button>
+          <div class="collapse navbar-collapse nav-left" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto w-100 justify-content-end">
+
+              <li class="nav-item">
+                <a class="nav-link"  href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">OUR FEATURE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TESTIMONIAL</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MY ACCOUNT
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Sign-up.html">Sign-Up</a></li>
+                  <li><a class="dropdown-item" href="log-in.html">Log-In</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Header-End -->
+
+
+     <!-- Banner -->
+    <section id="home" class="banner bg-light home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="banner-text-area">
+              <h1 class="pt-5 banner-text">Your Gateway To <br> Alternative <br> Investments.</h1>
+              <h4 class="py-3">Take Control With All-In-One Investment, Retirement, <br> Checking And More.</h4>
+              <div class="header-button">
+                <a onclick="openNav()" class="btn btn-common px-5 text-white" href="#">GET STARTED</a>
+              </div>
+            </div>
+           
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="images/banner-img.png" class="banner-img img-fluid" alt="banner-img"> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner-end -->
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header text-center pt-5">
+          <h1 class="header-title">Our feature</h1>
+          <h3>We Make Investing And Fundraising Easy</h3>
+            <div class="row">
+              <div class="col-md-2 col-lg-2 py-4">
+                <h3 class="stuff-title">for investor</h3>
+              </div>
+            </div>
+          <div class="row text-center">
+          <div class="col-md-4 col-lg-4">
+            <div class=" border shadow rounded feature-listing bg-white p-4">
+              <div class="section-item">
+                <div class="icon1 text-center">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+              </div>
+              <h4>Access Highly Quality <br> ‘Sponsored’ Startups</h4>
+              <p>Our team works to orignate, curate <br> and present disruptive and hyper <br> growth ventures.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <div class="border shadow rounded feature-listing bg-white p-4">
+              <div class="section-item">
+                <div class="icon1 text-center">
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+                <h4>Gain Access To A New <br> Age Asset Class</h4>
+                <p>Diversify wealth via an asset class <br> fundamentally different from <br> conventional real estate and precious <br> metals.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <div class=" border shadow rounded bg-white feature-listing p-4">
+              <div class="section-item">
+                <div class="icon1 text-center">
+                 <i class="fas fa-file-alt"></i>
+                </div>
+              </div>
+              <h4>Attend E-Pitch Nights</h4>
+              <p>Our platform allows you access to <br> elevator pitches directly from our <br> founders</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2 col-lg-2 py-4">
+          <h3 class="stuff-title">for founder</h3>
+        </div>
+      </div>
+    <div class="row text-center">
+    <div class="col-md-4 col-lg-4">
+      <div class="border shadow rounded feature-listing bg-white p-4">
+        <div class="section-item">
+          <div class="icon1 text-center">
+            <i class="fas fa-laptop"></i>
+          </div>
+        </div>
+        <h4>Develop Well-Targeted <br> Campaigns</h4>
+        <p>Develop campaigns with the support <br> of our partners to have a high impact <br> e-roadshow.</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-4">
+      <div class="border shadow rounded feature-listing bg-white p-4">
+        <div class="section-item">
+          <div class="icon1 text-center">
+            <i class="far fa-chart-bar"></i>
+          </div>
+        </div>
+        <h4>Connect With Investors <br> Via “E-Roadshows”</h4>
+        <p>Our realtime chat platform helps you <br> connect with investors quickly and <br> engage in meaningful discussions.</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-lg-4">
+      <div class=" border shadow rounded bg-white feature-listing p-4">
+        <div class="section-item">
+          <div class="icon1 text-center">
+            <i class="far fa-map"></i>
+          </div>
+        </div>
+        <h4>Track Your Funding</h4>
+        <p>Our platform helps you track <br> commitment(s) and complete <br> paperwork.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Services-end -->
+
+<!-- About-us -->
+<section class="about-us bg-light my-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-6">
+        <div class="about-text-area">
+          <h1 class="pt-5 about-text">A Few Words About Us</h1>
+          <p class=" about-para">
+            Seedkaro aims to act as a bridge that connects high quality founders<br>
+            with a previously untapped but extremely knowledgeable investor<br>
+            base.
+          </p>
+            
+           <p> 
+            With first hand experience, we have often noticed that founders who<br>
+            lack backing of a corporate sponsor or those who do not belong to an<br>
+            alumini network of an A-grade B-school often find it frustrating to <br>
+            gain access to equity funding. In similar vier, individual investors who<br>
+            have access to capital as well as experience to provide mentorship,<br>
+            are often not easily provided access to private equity as an asset class.<br>
+           </p>
+
+           <p>
+            At seedkaro, our vision is to bridge this gap and connect passionate,<br>
+            top quality and credible founders with traditional but experienced and <br>
+            "Unbanked" investors. We are fully aware of the time consuming <br>
+            nature of the fund raising process and aim to provide seedkaro as a <br>
+            unified integrated platform to manage the entire fund raising process <br>
+            in a safe, secure and seamless manner.
+          </p>
+
+          <div class="header-button">
+            <a onclick="openNav()" class="btn btn-common px-5 text-white">GET STARTED</a>
+          </div>
+        </div>
+       
+      </div>
+      <div class="col-md-12 col-lg-6 my-5">
+        <img src="images/aboutus.png" class="img-fluid" alt="banner-img"> 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About-us-end -->
+
+<!-- Share-trade -->
+<section class="share-trade py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-7">
+        <img src="images/mobile1.png" alt="mobile1-img"  class="top-img img-fluid">
+        <img src="images/mobile2.png" alt="mobile2-img"  class="img-fluid bottom-img">
+      </div>
+      <div class="col-md-12 col-lg-5 text-center earn">
+        <h2 class="earn-title pb-3">Earn Found Money</h2>
+        <p>Earn bonus investments when you shop with 350+ top <br> brands.</p>
+        <div class="header-button">
+            <a onclick="openNav()" class="btn btn-common px-5 text-white">GET STARTED</a>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- Share-trade-end -->
+
+<!-- Testimonial  --> 
+  <section class="testimonials pt-5 bg-light" id="testimonial">
+    <div class="container">
+        <div class="section-header text-center pb-4">
+            <h2 class="head-title">What our clients say</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="testimonial-review shadow">
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a erat sit amet augue aliquet rutrum. Proin maximus purus purus, eu porta lorem imperdiet ultrices. Integer non nisl at leo sagittis tincidunt vel non odio. Nam luctus nisl commodo cursus cursus. Duis quis lobortis urna, a ultricies."
+                            </p>
+                        </div>
+                        <div class="pic">
+                            <img src="images/testiprofile1.jpg" alt="">
+
+                            <div class="testimonial-title">
+                                <h4>williamson</h4>
+                                <small>Web Developer</small>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-review shadow">
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a erat sit amet augue aliquet rutrum. Proin maximus purus purus, eu porta lorem imperdiet ultrices. Integer non nisl at leo sagittis tincidunt vel non odio. Nam luctus nisl commodo cursus cursus. Duis quis lobortis urna, a ultricies."
+                            </p>
+                        </div>
+                        <div class="pic">
+                            <img src="images/testiprofile2.jpg" alt="">
+
+                            <div class="testimonial-title">
+                                <h4>williamson</h4>
+                                <small>Web Developer</small>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-review shadow">
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a erat sit amet augue aliquet rutrum. Proin maximus purus purus, eu porta lorem imperdiet ultrices. Integer non nisl at leo sagittis tincidunt vel non odio. Nam luctus nisl commodo cursus cursus. Duis quis lobortis urna, a ultricies."
+                            </p>
+                        </div>
+                        <div class="pic">
+                            <img src="images/testiprofile3.jpg" alt="">
+
+                            <div class="testimonial-title">
+                                <h4>williamson</h4>
+                                <small>Web Developer</small>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-review shadow">
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a erat sit amet augue aliquet rutrum. Proin maximus purus purus, eu porta lorem imperdiet ultrices. Integer non nisl at leo sagittis tincidunt vel non odio. Nam luctus nisl commodo cursus cursus. Duis quis lobortis urna, a ultricies."
+                            </p>
+                        </div>
+                        <div class="pic">
+                            <img src="images/testiprofile1.jpg" alt="">
+
+                            <div class="testimonial-title">
+                                <h4>williamson</h4>
+                                <small>Web Developer</small>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Testimonial-end -->
+
+<!-- First-step  -->
+<section class="first-step py-5">
+  <div class="container">
+      <div class="row py-2">
+          <div class="col-md-8 col-lg-9">
+              <h2 class="head-title">Take your first steps towards your financial <br> success</h2>
+          </div>
+          <div class="col-md-4 col-lg-3">
+          <div class="banner pt-4">
+            <div>
+              <a class="bannerbtn2" href="Sign-up.html">SIGN-UP</a>
+            </div>
+          </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- First-step-end -->
+
+  <!-- Conditions-start -->
+<section class="condition  py-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <p><small>
+                      Investing involves risks, including loss of capital, illiquidity, lack of dividends and dilution, and should be done only as part of a diversified portfolio. Please read the risk warnings before investing. Investments should only be made by investors who understand these risks. Tax treatment depends on individual circumstances and is subject to change in future.<br><br>
+                      This platform is not intended to be a promotion of any individual investment opportunity and is not an offer to the public. The summary information provided about investment opportunities on this webpage is intended solely to demonstrate the types of investments available on the seedkaro platform, and any investment decision should be made on the basis of the full investment memo. Full campaigns are available to investors who have become authorised to invest on the platform.<br><br>
+                      Seedkaro does not make investment recommendations to you. No communications from us, through this website or any other medium, should be construed as an investment recommendation. Further, nothing on this website shall be considered an offer to sell, or a solicitation of an offer to buy, any security to any person in any jurisdiction to whom or in which such offer, solicitation or sale is unlawful. We does not provide legal, financial or tax advice of any kind. If you have any questions with respect to legal, financial or tax matters relevant to your interactions with us, you should consult a professional adviser.
+                  </small></p>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Conditions-end -->
+
+<!-- Footer -->
+<footer class="footer-area py-4 bg-dark">
+  <div class="footer-top bg-1">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-9 footercolor"><p>© 2020 - All Rights Reserved, SeedKaro.</p>
+              </div>
+              <div id="scrollbtn" class="scroll-up shadow rounded">
+                <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+            </div> 
+              <div class="col-lg-3">
+                      <ul class="list-inline pull-right footercolor">
+                          <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fas fa-phone-square"></i></a></li>
+                          <li class="list-inline-item"><a href="#"><i class="fas fa-envelope"></i></i></a></li>
+                      </ul>                       
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- footer-end -->
+
+
+
+          
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script> -->
+
+<script>
+  $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1199,2],
+        itemsDesktopSmall:[980,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:false
+    });
+});
+</script>
+</body>
+</html>

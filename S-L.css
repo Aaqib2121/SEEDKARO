@@ -1,0 +1,140 @@
+body {
+  background-image: url(images/banner-new.jpg);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  padding-top: 60px;
+  line-height: 1.5;
+}
+
+html {scroll-behavior: smooth;}
+
+
+.banner-text{
+    color: green;
+}
+
+.header-title{
+  color: green;
+}
+
+.bg-color{
+  background-color: white;
+  border-bottom: 3px solid #6bc449;
+}
+
+.navbar-brand{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+  
+  @media screen {
+    .signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    }
+    
+    .login-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    }
+    
+    h1 {
+      text-align: center;
+      padding-top: 15px;
+    }
+    
+    h4 {
+      text-align: center;
+    }
+    
+    form {
+      width: 300px;
+      margin-left: 20px;
+    }
+    
+    form label {
+      display: flex;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    
+    form input {
+      width: 100%;
+      padding: 7px;
+      border: none;
+      border: 1px solid gray;
+      border-radius: 6px;
+      outline: none;
+    }
+
+    input[type="button"] {
+      width: 320px;
+      height: 35px;
+      margin-top: 20px;
+      border: none;
+      background-color: #49c1a2;
+      color: white;
+      font-size: 18px;
+    }
+
+    p {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 15px;
+    }
+
+    .para-2 {
+      text-align: center;
+      color:black;
+      font-size: 15px;
+      margin-top: 10px;
+    }
+
+    .para-2 a {
+      color: blueviolet;
+      padding-left: 6px;
+    }
+  }
+  
+  .footercolor{
+  font-size: 25px;
+  color: green;
+  padding-left: 20px;
+}
+
+.footercolor i{
+    color: green;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: green;
+  border-radius: 30px;
+  bottom: 20px;
+  right: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+} 
